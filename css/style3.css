@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Tiêu đề */
+.title {
+    text-align: center;
+    margin: 20px 0;
+    color: #222;
+}
+
+/* Khung form */
+.contact-container {
+    width: 40%;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.15);
+}
+
+/* Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Nhãn */
+.contact-form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Input + textarea */
+.contact-form input,
+.contact-form textarea {
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+/* Nút gửi */
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover nút */
+.contact-form button:hover {
+    background: #0056b3;
+}
